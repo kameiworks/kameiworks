@@ -8,6 +8,9 @@ theme = "ananke"
   # CSSを上書きするためのカスタムCSSファイルを指定
   custom_css = ["css/custom.css"]
 
+[services.googleAnalytics]
+  ID = "G-1X2RN6L7W9" # <- ステップ1でコピーした測定IDに置き換える
+
 # hugo.toml の場合
 [markup.goldmark.renderer]
   # ⬇️ この設定で、Markdown内のHTMLタグが有効になります ⬇️
