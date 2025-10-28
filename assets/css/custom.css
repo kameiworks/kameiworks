@@ -1,0 +1,16 @@
+/* サイトのヘッダー内の h1 をターゲット */
+header .f-subheadline-l {
+    /* サイズを小さくして、変更が分かりやすいようにします */
+    font-size: 1rem !important; 
+}
+
+/* f2 も同様にターゲット */
+header .f2 {
+    font-size: 1.5rem !important;
+}
+
+/* 万が一のため、h1 要素自体にも適用 */
+header h1 {
+    font-size: 1.5rem !important;
+}
+

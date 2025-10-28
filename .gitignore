@@ -1,0 +1,16 @@
+# Hugo build output
+/public/
+
+# OS or editor generated files
+.DS_Store
+Thumbs.db
+
+# Node (if you use npm/yarn for themes or tooling)
+node_modules/
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# Temporary files
+*.log
