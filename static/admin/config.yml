@@ -1,0 +1,16 @@
+backend:
+  name: git-gateway
+  branch: main  # サイトをデプロイしているブランチ名 (通常は main)
+
+# CMSでの編集対象となるコンテンツのコレクション設定
+collections:
+  - name: "blog" # CMSで表示されるコレクション名
+    label: "作品/記事" # ユーザーに表示されるラベル
+    folder: "content/posts" # HugoのMarkdownファイルが格納されているフォルダ
+    create: true # 新規記事作成を許可
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # ファイル名の形式 (Hugoの命名規則に合わせる)
+    fields:
+      - {label: "タイトル", name: "title", widget: "string"}
+      - {label: "公開日", name: "date", widget: "datetime"}
+      - {label: "概要 (Description)", name: "description", widget: "string"}
+      - {label: "本文", name: "body", widget: "markdown"}
