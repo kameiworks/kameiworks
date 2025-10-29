@@ -1,6 +1,7 @@
 backend:
-  name: git-gateway
-  branch: main  # サイトをデプロイしているブランチ名 (通常は main)
+  name: github  # ← バックエンド名を 'github' に変更
+  branch: main
+  repo: "kameiworks/kameiworks" # ← ★必須：GitHubのユーザー名とリポジトリ名を指定
 
 media_folder: "static/images" # 画像ファイルをGitリポジトリのどこに保存するか
 public_folder: "/images"      # サイトの公開URLで画像にアクセスする時のパス
