@@ -1,4 +1,4 @@
-baseURL = 'https://www.kameiworks.com/'
+baseURL = 'https://kameiworks.com/'
 languageCode = 'ja-jp'
 title = 'かめいが作ったのここ置いとくわ――ウェブ漫画・小説・イラスト'
 theme = "ananke"
