@@ -1,0 +1,92 @@
+# -- Main Menu --
+# The main menu is displayed in the header at the top of the page.
+# Acceptable parameters are name, pageRef, page, url, title, weight.
+#
+# The simplest menu configuration is to provide:
+#   name = The name to be displayed for this menu link
+#   pageRef = The identifier of the page or section to link to
+#
+# By default the menu is ordered alphabetically. This can be
+# overridden by providing a weight value. The menu will then be
+# ordered by weight from lowest to highest.
+
+[[main]]
+  name = "サイトトップ"
+  pageRef = "index"
+  weight = 10
+
+# [[main]]
+#   name = "Categories"
+#   pageRef = "categories"
+#   weight = 20
+
+[[main]]
+  name = "リグレットゲージ"
+  pageRef = "regretgauge"
+  weight = 20
+
+[[main]]
+  name = "記憶のまち"
+  pageRef = "kiokunomachi"
+  weight = 20
+
+[[main]]
+  name = "私は、走り続けるのか"
+  pageRef = "watahashi"
+  weight = 20
+
+
+
+
+
+[[main]]
+  identifier = "search"
+  weight = 30
+  [main.params]
+    action = "search"
+
+[[main]]
+  identifier = "locale"
+  weight = 40
+  [main.params]
+    action = "locale"
+
+[[main]]
+  name = "サイトについて"
+  pageRef = "about"
+  weight = 50
+
+[[main]]
+  name = "プライバシーポリシー"
+  pageRef = "privacy"
+  weight = 60
+
+[[main]]
+  name = "お問い合わせ"
+  pageRef = "contact"
+  weight = 70
+
+
+# -- Footer Menu --
+# The footer menu is displayed at the bottom of the page, just before
+# the copyright notice. Configure as per the main menu above.
+
+# [[footer]]
+#   name = "Tags"
+#   pageRef = "tags"
+#   weight = 10
+
+ [[footer]]
+  name = "サイトについて"
+  pageRef = "about"
+  weight = 50
+
+ [[footer]]
+  name = "プライバシーポリシー"
+  pageRef = "privacy"
+  weight = 60
+
+ [[footer]]
+  name = "お問い合わせ"
+  pageRef = "contact"
+  weight = 70

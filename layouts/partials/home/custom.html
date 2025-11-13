@@ -1,0 +1,10 @@
+<article class="prose max-w-full dark:prose-invert">
+  {{ with .Title }}
+    <header>
+    </header>
+  {{ end }}
+  <section>{{ .Content | emojify }}</section>
+</article>
+<section>
+  {{ partial "recent-articles.html" . }}
+</section>
