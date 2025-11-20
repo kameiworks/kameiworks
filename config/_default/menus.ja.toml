@@ -15,6 +15,11 @@
   pageRef = "index"
   weight = 10
 
+[[main]]
+  name = "小説の書き方"
+  pageRef = "lecture"
+  weight = 15
+
 # [[main]]
 #   name = "Categories"
 #   pageRef = "categories"

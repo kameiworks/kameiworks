@@ -9,7 +9,7 @@ copyright = "© kameiworks.com"
 [params]
   dateFormat = "2006年1月2日"
 
-  mainSections = ["regretgauge" , "kiokunomachi"]
+  mainSections = ["regretgauge" , "kiokunomachi" , "lecture"]
   # description = "My awesome website"
 
 [params.author]
