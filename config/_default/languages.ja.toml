@@ -13,10 +13,10 @@ copyright = "© kameiworks.com"
   # description = "My awesome website"
 
 [params.author]
-  # name = "Your name here"
-  # image = "img/author.jpg"
+  name = "かめい"
+  image = "/img/author.png"
   # headline = "I'm only human"
-  # bio = "A little bit about you"
+  bio = "オリジナルの小説と漫画を創作しています。"
   # links = [
   #   { email = "mailto:hello@your_domain.com" },
   #   { link = "https://link-to-some-website.com/" },

@@ -12,6 +12,7 @@ title = 'かめいが作ったのここ置いとくわ――ウェブ漫画・�
 
 ## how to write -小説の書き方
 [日常の違和感をアイデアにする！創作の種を見つける観察術](lecture/idea.md)  
+[読者を没入させる「独自の世界観」設定と伝え方](lecture/world.md)  
 [登場人物にリアリティを持たせるには？](lecture/charactor.md)  
 [時系列を考えて整理する方法](lecture/timeline.md)  
 [執筆効率が格段に上がる！プロが使う「創作の三種の神器」](lecture/item.md)  

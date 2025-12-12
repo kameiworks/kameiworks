@@ -16,7 +16,7 @@
   weight = 10
 
 [[main]]
-  name = "小説の書き方"
+  name = "【コラム】小説の書き方"
   pageRef = "lecture"
   weight = 15
 
@@ -26,17 +26,17 @@
 #   weight = 20
 
 [[main]]
-  name = "リグレットゲージ"
+  name = "【小説】リグレットゲージ"
   pageRef = "regretgauge"
   weight = 20
 
 [[main]]
-  name = "記憶のまち"
+  name = "【小説】記憶のまち"
   pageRef = "kiokunomachi"
   weight = 20
 
 [[main]]
-  name = "私は、走り続けるのか"
+  name = "【漫画】私は、走り続けるのか"
   pageRef = "watahashi"
   weight = 20
 
