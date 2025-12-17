@@ -1,5 +1,6 @@
 +++
 date = '2025-10-01T00:00:00+09:00'
+lastmod = '2025-12-17T00:00:00+09:00'
 draft = false
 title = 'このサイトについて'
 showDate = false
