@@ -1,5 +1,5 @@
 theme = "congo"
-title = 'かめいが作ったのここ置いとくわ'
+title = '物語の設計図：現代小説構築の技術と実践'
 
 # -- Site Configuration --
 # Refer to the theme docs for more details about each of these parameters.
@@ -9,7 +9,7 @@ baseURL = "/"
 defaultContentLanguage = "ja"
 
 enableRobotsTXT = true
-summaryLength = 0
+summaryLength = 100
 
 googleAnalytics = "G-YVE4B0V17G"
 

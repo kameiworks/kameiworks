@@ -3,20 +3,20 @@ languageName = "Japanese"
 languageDirection = "ltr"
 weight = 1
 
-title = "かめいが作ったのここ置いとくわ――小説の書き方・小説作品"
+title = "物語の設計図：現代小説構築の技術と実践"
 copyright = "© kameiworks.com"
 
 [params]
   dateFormat = "2006年1月2日"
 
   mainSections = ["regretgauge" , "kiokunomachi" , "lecture"]
-  description = "当サイトは、小説家かめいによる創作拠点です。独自のSF・ファンタジー世界観を持つ小説や漫画の公開に加え、自身の執筆経験を元にした、具体的で再現性の高い講座『小説の書き方』を連載しています。創作初心者から、設定の構築に悩む書き手まで、実体験に基づいたノウハウを提供します。"
+  description = "現代小説の創作プロセスを「設計図」として解剖・言語化する実践ブログ。小説家のかめいが実践している、空想を具体的な設定に落とし込む構築術や、デジタルツールを用いた執筆環境、プロットの構造分析など、自作の制作過程から得た独自の創作メソッドを体系的に公開しています。"
 
 [params.author]
   name = "かめい"
   image = "/img/author.png"
   # headline = "I'm only human"
-  bio = "オリジナルの小説と漫画を創作しています。"
+  bio = "オリジナルの小説を創作しています。"
   # links = [
   #   { email = "mailto:hello@your_domain.com" },
   #   { link = "https://link-to-some-website.com/" },
