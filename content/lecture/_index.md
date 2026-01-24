@@ -4,4 +4,3 @@ draft = false
 title = '創作プロセスの解剖学'
 showDate = false
 +++
-
