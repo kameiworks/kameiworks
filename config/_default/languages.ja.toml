@@ -3,20 +3,20 @@ languageName = "Japanese"
 languageDirection = "ltr"
 weight = 1
 
-title = "物語の設計図：現代小説構築の技術と実践"
+title = "会社員小説家の法則—仕事続けながら小説が書けたときの記録"
 copyright = "© kameiworks.com"
 
 [params]
   dateFormat = "2006年1月2日"
 
-  mainSections = ["regretgauge" , "kiokunomachi" , "lecture"]
-  description = "現代小説の創作プロセスを「設計図」として解剖・言語化する実践ブログ。小説家のかめいが実践している、空想を具体的な設定に落とし込む構築術や、デジタルツールを用いた執筆環境、プロットの構造分析など、自作の制作過程から得た独自の創作メソッドを体系的に公開しています。"
+  mainSections = ["lecture"]
+  description = "現代小説の創作プロセスを解剖・言語化する実践ブログ。会社勤めをする小説家のかめいが実践している、空想を具体的な設定に落とし込む構築術や、デジタルツールを用いた執筆環境、プロットの構造分析など、自作の制作過程から得た独自の創作メソッドを体系的に公開しています。"
 
 [params.author]
   name = "かめい"
   image = "/img/author.png"
   # headline = "I'm only human"
-  bio = "オリジナルの小説を創作しています。"
+  bio = "会社勤めをする傍ら小説家・漫画家として活動しています。"
   # links = [
   #   { email = "mailto:hello@your_domain.com" },
   #   { link = "https://link-to-some-website.com/" },

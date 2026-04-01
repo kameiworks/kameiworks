@@ -33,6 +33,7 @@ footer:
 list:
   externalurl_title: "外部サイトへリンク"
   no_articles: "ここに掲載する記事はまだありません。"
+  read_more: ">> 続きを読む"
 
 nav:
   scroll_to_top_title: "TOPへスクロール"

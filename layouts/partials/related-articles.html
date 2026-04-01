@@ -1,0 +1,13 @@
+{{- if .Params.showRelated | default (.Site.Params.article.showRelated | default true) -}}
+  {{- $pool := where .Site.RegularPages "Section" .Section -}}
+  {{- $others := complement (slice .) $pool -}}
+  {{- $related := first 3 (sort $others "Date" "desc") -}}
+  {{- if gt (len $related) 0 -}}
+    <div class="mt-10">
+      <h2 class="mb-2 text-2xl font-extrabold text-neutral-900 dark:text-neutral">関連記事</h2>
+      {{- range $related -}}
+        {{- partial "article-link.html" . -}}
+      {{- end -}}
+    </div>
+  {{- end -}}
+{{- end -}}

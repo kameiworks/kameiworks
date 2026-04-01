@@ -1,3 +1,11 @@
 .footerlogo {
     margin: 0 0 20px;
 }
+
+/* prose 内の本文表のみ（コードブロックの .lntable は除外） */
+.prose table:not(.lntable) :where(th, td):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  border-inline-start: 1px solid var(--tw-prose-td-borders);
+}
+.prose table:not(.lntable) :where(th:first-child, td:first-child):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  border-inline-start: 0;
+}

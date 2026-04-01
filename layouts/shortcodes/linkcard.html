@@ -1,0 +1,32 @@
+{{/* 内部リンク自動取得版ショートコード（画像縮小版） */}}
+{{ $url := .Get "url" }}
+{{ $p := site.GetPage $url }}
+
+{{ if $p }}
+  <div class="my-6">
+    <a href="{{ $p.Permalink }}" class="not-prose group flex flex-col overflow-hidden rounded-lg border border-neutral-200 bg-neutral-50 no-underline shadow-sm transition-all hover:border-primary-300 hover:shadow-md dark:border-neutral-700 dark:bg-neutral-800 sm:flex-row">
+      
+      {{/* サムネイルも拾えるように修正 */}}
+      {{ $img := $p.Params.feature | default ($p.Params.thumb | default $p.Params.cover) }}
+      
+      {{ if $img }}
+      {{/* ここを sm:w-1/5 にして画像を小さく */}}
+      <div class="sm:w-1/5 shrink-0">
+        <img src="{{ $img }}" alt="{{ $p.Title }}" class="h-full w-full object-cover">
+      </div>
+      {{ end }}
+
+      {{/* ここを sm:w-4/5 にしてテキストを広く */}}
+      <div class="flex flex-col justify-center p-4 {{ if $img }}sm:w-4/5{{ else }}w-full{{ end }}">
+        <h4 class="mt-0 text-base font-bold text-neutral-800 group-hover:text-primary-600 dark:text-neutral-100 dark:group-hover:text-primary-400">
+          {{ $p.Title | emojify }}
+        </h4>
+        <p class="mt-1 text-xs text-neutral-500 dark:text-neutral-400 line-clamp-2">
+          {{ $p.Description | plainify | truncate 120 }}
+        </p>
+      </div>
+    </a>
+  </div>
+{{ else }}
+  <p><a href="{{ $url }}">{{ $url }}</a></p>
+{{ end }}
